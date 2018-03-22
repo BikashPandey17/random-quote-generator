@@ -22,3 +22,10 @@ git add .
 git commit -m "Give a commit message"
 
 git push origin master
+
+
+<-----PLEASE SEE----->
+The html file is in the "public" folder
+The css and other javascript(reactjs) files are in the "src" folder
+
+!!!! DO NOT MOVE THE FILES AROUND  !!!!
