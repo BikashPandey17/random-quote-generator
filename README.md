@@ -6,6 +6,8 @@ HTML CSS Javascript
 React.js Node.js
 Git essentials for CLI
 
+DIRECTIONS---->
+
 apt-get install git
 cd into the directory you want to put all your git files
 
@@ -25,7 +27,13 @@ git push origin master
 
 
 <-----PLEASE SEE----->
+
+
 The html file is in the "public" folder
 The css and other javascript(reactjs) files are in the "src" folder
+
+Those wishing to work on react.....after you download the quote_app folder. cd into it and in command line write npm install.
+(Provided you have already installed npm)
+After that you can simply wite npm start and start working on localhost.
 
 !!!! DO NOT MOVE THE FILES AROUND  !!!!
