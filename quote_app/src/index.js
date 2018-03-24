@@ -1,7 +1,15 @@
-import React from 'react';
+import React from  'react';
 import ReactDOM from 'react-dom';
+import Quote from './Quote';
+import 'tachyons'; 
 import './index.css';
-import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<h1>Hello World</h1>, document.getElementById('root'));
-registerServiceWorker();
+class App extends React.Component{
+	render(){
+		return (
+		 <Quote/>
+		);
+	}
+}
+
+ReactDOM.render(<App/>,document.getElementById('quote'));
