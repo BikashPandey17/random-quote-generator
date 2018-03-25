@@ -1,7 +1,7 @@
 import React from  'react';
 import ReactDOM from 'react-dom';
 import Quote from './Quote';
-import 'tachyons'; 
+import './tachyons.css'; 
 import './index.css';
 
 class App extends React.Component{
