@@ -15,6 +15,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- custom stylesheet-->
     <link rel="stylesheet" href="index.css"/>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -28,32 +33,40 @@
   </head>
 
   <body>
-  
-      <div class="intro jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4 b">Today`s quote:</h1>
-          <div class="tc quote">
-            <blockquote class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus velit, congue sit amet imperdiet ut, bibendum nec massa. Curabitur pellentesque dignissim odio, sit amet fermentum purus tincidunt convallis. Maecenas eu convallis velit, eu mollis purus. Sed nisl dui, egestas eu feugiat in, maximus at eros.</blockquote>
-            <cite>- Someone famous</cite>
-          </div>
+      
+      <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+        <a class="navbar-brand dim" href="#">QUOTE APP</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link grow" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link grow" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link grow" href="#">Sign Up</a>
+            </li>
+          </ul>
         </div>
+      </nav>
+
+     <div class="intro">
+      <div class="box-1">
+        <h1>Today`s quote</h1>
       </div>
+      <div class="box-2 tc pa2">
+        <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque odio odio, malesuada eget condimentum sit amet, feugiat vel augue. Suspendisse molestie non purus non ultrices. Nam quis dictum nunc, vel feugiat ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse dignissim rutrum felis et volutpat. Morbi placerat imperdiet elit sit amet rhoncus. Donec pulvinar, justo in ullamcorper imperdiet, elit arcu lobortis lorem, ac lacinia felis arcu et felis. Etiam dapibus, nunc quis varius cursus, libero dui accumsan orci, in viverra augue magna sed sem. Curabitur quis arcu suscipit, luctus nibh non, imperdiet magna. Aenean id hendrerit metus. Vestibulum quis turpis pretium, facilisis tortor in, gravida ante. Nullam a eleifend mauris, quis suscipit tortor. Vivamus facilisis ac lacus at dictum. Sed luctus nisi urna, a molestie massa gravida nec. Nulla leo tortor, sollicitudin a mi nec, venenatis fermentum sapien.</blockquote>
+        <cite>- Someone famous</cite>
+      </div>
+     </div>
 
-    <div id="cards">
-    </div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+     <div id="quote">
+     </div>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
